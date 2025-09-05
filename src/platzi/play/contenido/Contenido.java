@@ -27,7 +27,7 @@ public abstract class Contenido {
     public abstract void reproducir();
 
     public String obtenerFichaTecnica() {
-        return "✨" + titulo + " (" + fechaEstreno.getYear() + ")\n" +
+        return "🎬" + titulo + " (" + fechaEstreno.getYear() + ")\n" +
                 "Género: " + genero + "\n" +
                 "Calificación: " + calificacion + "/5";
     }
